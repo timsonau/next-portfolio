@@ -15,3 +15,9 @@ html {
 .skills {
   grid-template-columns: repeat(auto-fit, minmax(175px, 200px));
 }
+
+@media (max-width: 640px) {
+  .skills {
+    grid-template-columns: repeat(auto-fit, minmax(75px, 100px));
+  }
+}

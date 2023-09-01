@@ -19,13 +19,13 @@ export default function Profile() {
         </a>
       </div>
 
-      <p className="intro text-center p-2 text-lg">
+      <p className="intro text-center p-2 lg:text-lg text-base">
         Writing code is simple, but writing simple code is hard.
       </p>
       <div className="resume justify-center p-2 gap-1 flex">
-        <h3 className="text-sm">Resume</h3>
+        <h3 className="lg:text-lg text-base">Resume</h3>
         <a href="files/Resume.pdf" className="self-center">
-          <AiOutlineDownload size={20} />
+          <AiOutlineDownload size={30} />
         </a>
       </div>
     </section>

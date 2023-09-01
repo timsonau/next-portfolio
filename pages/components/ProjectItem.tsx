@@ -14,8 +14,8 @@ export default function ProjectItem(props: ProjectItemProps) {
     : "";
 
   return (
-    <div className="project-item relative w-52 drop-shadow-md">
-      <div className="relative block w-52 h-52 group transition-opacity ease-in-out duration-300">
+    <div className="project-item relative md:w-52 w-60 drop-shadow-md">
+      <div className="relative block md:w-52 md:h-52 w-60 h-60 group transition-opacity ease-in-out duration-300">
         <img
           alt="profile"
           src={`images/${props.img}`}
@@ -45,7 +45,7 @@ export default function ProjectItem(props: ProjectItemProps) {
           )}
         </div>
       </div>
-      <div className="text-white bg-gradient-to-r from-indigo-400 to-cyan-400 lower rounded-b-2xl w-52 mx-auto text-center px-2 py-2 h-40 drop-shadow-2xl">
+      <div className="text-white bg-gradient-to-r from-indigo-400 to-cyan-400 lower rounded-b-2xl md:w-52 w-60 mx-auto text-center px-2 py-2 h-40 drop-shadow-2xl">
         <h2 className="text-s font-semibold text-center pb-2">{props.name}</h2>
         <p className="text-xs">{props.description}</p>
       </div>
