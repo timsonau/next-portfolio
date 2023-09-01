@@ -11,7 +11,7 @@ export default function Profile() {
         <a href="#" className="p-2 drop-shadow-2xl">
           <img
             alt="profile"
-            src="/grad-photo.jpg"
+            src="images/grad-photo.jpg"
             className="object-cover rounded-full h-48 w-48 drop-shadow-2xl"
           />
         </a>
@@ -22,7 +22,7 @@ export default function Profile() {
       </p>
       <div className="resume justify-center p-2 gap-1 flex">
         <h3 className="text-sm">Resume</h3>
-        <a href="/Resume.pdf" className="self-center">
+        <a href="files/Resume.pdf" className="self-center">
           <AiOutlineDownload size={20} />
         </a>
       </div>

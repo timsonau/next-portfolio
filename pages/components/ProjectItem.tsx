@@ -18,7 +18,7 @@ export default function ProjectItem(props: ProjectItemProps) {
       <div className="relative block w-52 h-52 group transition-opacity ease-in-out duration-300">
         <img
           alt="profile"
-          src={`${props.img}`}
+          src={`images/${props.img}`}
           className="rounded-t-2xl  h-full w-full group-hover:opacity-20 transition-opacity ease-in-out duration-300"
         />
         <div className="absolute inset-0 flex items-center justify-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-300 ">
