@@ -30,7 +30,7 @@ export default function NavBar() {
       </div>
       <div
         className={`bg-white border w-full border-gray-300 absolute mt-12 py-2 z-10 lg:hidden transition-opacity duration-300 ${
-          showDropdown ? "opacity-100" : "opacity-0"
+          showDropdown ? "opacity-100 visible" : "opacity-0 invisible"
         }`}
         onClick={toggleDropdown}
       >
