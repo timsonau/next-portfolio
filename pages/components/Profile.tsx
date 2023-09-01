@@ -6,7 +6,9 @@ export default function Profile() {
       id="Profile"
       className="drop-shadow-2xl pt-24 bg-gradient-to-r from-fuchsia-500 to-cyan-500 text-white"
     >
-      <h2 className="name text-2xl text-center p-2">Heeyooon Son</h2>
+      <h2 className="name text-4xl font-semibold text-center p-2">
+        Heeyooon Son
+      </h2>
       <div className="pic flex justify-center">
         <a href="#" className="p-2 drop-shadow-2xl">
           <img

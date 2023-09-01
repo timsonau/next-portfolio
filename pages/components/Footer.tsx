@@ -3,7 +3,7 @@ export default function Footer() {
   return (
     <footer
       id="Contact"
-      className="flex flex-col items-center bg-gradient-to-r from-fuchsia-300 to-cyan-300 text-center text-white"
+      className="flex flex-col items-center bg-gradient-to-r from-fuchsia-400 to-cyan-600 text-center text-white"
     >
       <div className="container pt-9">
         <div className="mb-9 flex justify-center">

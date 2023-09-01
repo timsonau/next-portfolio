@@ -8,10 +8,13 @@ export default function NavBar() {
     setShowDropdown((prev) => !prev);
   };
 
-  const items = ["Profile", "Projects", "Experience", "Skills"];
+  const items = ["Profile", "Projects", "Experience", "Skills", "Contact"];
   return (
-    <nav className="bg-white z-10 fixed container  flex justify-center px-4 py-8 mx-0 min-w-full">
-      <div className="hidden space-x-8 lg:flex" onClick={toggleDropdown}>
+    <nav className="bg-white z-10 fixed container flex justify-center px-4 py-8 mx-0 min-w-full">
+      <div
+        className="hidden space-x-8 lg:flex font-semibold"
+        onClick={toggleDropdown}
+      >
         {items.map((name, index) => (
           <a key={index} href={`#${name}`} className="text-gray-800">
             {name}

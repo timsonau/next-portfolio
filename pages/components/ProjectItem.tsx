@@ -46,7 +46,7 @@ export default function ProjectItem(props: ProjectItemProps) {
         </div>
       </div>
       <div className="text-white bg-gradient-to-r from-indigo-400 to-cyan-400 lower rounded-b-2xl w-52 mx-auto text-center px-2 py-2 h-40 drop-shadow-2xl">
-        <h2 className="text-s text-center pb-2">{props.name}</h2>
+        <h2 className="text-s font-semibold text-center pb-2">{props.name}</h2>
         <p className="text-xs">{props.description}</p>
       </div>
     </div>
