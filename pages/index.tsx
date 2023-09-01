@@ -15,7 +15,6 @@ export default function Home() {
       <Experiences />
       <div className=" drop-shadow-2xl border bg-gradient-to-r from-fuchsia-500 to-cyan-500 h-9"></div>
       <Skills />
-      <div className="filler h-96"></div>
       <Footer />
     </main>
   );
