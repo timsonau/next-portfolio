@@ -1,5 +1,5 @@
 import ProjectItem from "./ProjectItem";
-import projects from "../data/projectsData";
+import projects from "../../public/data/projectsData";
 export default function Projects() {
   return (
     <section id="Projects" className="pb-8">

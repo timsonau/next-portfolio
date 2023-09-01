@@ -1,5 +1,5 @@
 import ProjectItem from "./ProjectItem";
-import skills from "../data/skillsData";
+import skills from "../../public/data/skillsData";
 import Skill from "./Skill";
 export default function Skills() {
   return (

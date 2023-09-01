@@ -1,5 +1,5 @@
 import Experience from "./Experience";
-import experiences from "../data/experiencesData";
+import experiences from "../../public/data/experiencesData";
 export default function Experiences() {
   return (
     <section id="Experience" className="pb-8">
