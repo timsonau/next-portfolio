@@ -11,7 +11,7 @@ export default function Experience(props: ExperienceProp) {
         <div className="experience p-4 2xl:w-[98%] 2xl:h-[90%] h-[94%] w-[98%] bg-white rounded-2xl">
           <div className="title flex justify-between">
             <h3 className="font-semibold">{props.name}</h3>
-            <h3 className="text-xs">{props.dates}</h3>
+            <h3 className="text-xs self-center">{props.dates}</h3>
           </div>
           <div className="info">
             <p className="text-sm p-4">{props.description}</p>

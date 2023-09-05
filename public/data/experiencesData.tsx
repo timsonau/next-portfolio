@@ -2,7 +2,7 @@ const experiences = [
   {
     name: "UDA Technologies",
     dates: "05/2021 - 08/2022",
-    description: `Worked as a Full Stack Developer on UDA's flagship product Construction Online, a cloud based consturction management software used by over 850,000 pros. Led the OnPoint proposal project, an intuitive customizable bid proposal widget featured at the International Builders Show 2023 with a dynamic preview option.`,
+    description: `Worked as a Full Stack Developer on UDA's flagship product Construction Online, a cloud-based construction management software used by over 850,000 pros. Led the OnPoint proposal project, an intuitive customizable bid proposal widget featured at the International Builders Show 2023 with a dynamic preview option.`,
   },
   {
     name: "Auburn University",
