@@ -2,21 +2,16 @@ import React from "react";
 import { AiOutlineDownload } from "react-icons/ai";
 export default function Profile() {
   return (
-    <section
-      id="Profile"
-      className="drop-shadow-2xl pt-24 bg-gradient-to-r from-fuchsia-500 to-cyan-500 text-white"
-    >
+    <section id="Profile" className="">
       <h2 className="name text-4xl font-semibold text-center p-2">
         Heeyooon Son
       </h2>
-      <div className="pic flex justify-center">
-        <a href="#" className="p-2 drop-shadow-2xl">
-          <img
-            alt="profile"
-            src="images/grad-photo.jpg"
-            className="object-cover rounded-full h-48 w-48 drop-shadow-2xl"
-          />
-        </a>
+      <div className="profile-pic flex justify-center drop-shadow-2xl p-2">
+        <img
+          alt="profile"
+          src="images/grad-photo.jpg"
+          className="object-cover rounded-full h-48 w-48 drop-shadow-2xl"
+        />
       </div>
 
       <p className="intro text-center p-2 lg:text-lg text-base">

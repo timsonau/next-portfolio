@@ -7,12 +7,44 @@
   src: url("../public/fonts/SF.otf");
 }
 
+/* Generic */
+.section-title {
+  @apply text-center text-3xl p-4 font-semibold;
+}
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 6rem;
 }
 
-.skills {
+/* Nav */
+#NavBar {
+  @apply bg-white z-10 fixed container flex justify-center px-4 py-8 mx-0 min-w-full;
+}
+
+.expanded-bar {
+  @apply hidden space-x-8 lg:flex font-semibold;
+}
+
+.dropdown {
+  @apply flex lg:hidden cursor-pointer;
+}
+
+.dropdown-line {
+  @apply block w-8 h-0.5 bg-gray-600 animate-pulse;
+}
+
+.dropdown-options {
+  @apply bg-white border w-full border-gray-300 absolute mt-12 py-2 z-10 lg:hidden transition-opacity duration-300;
+}
+/* Profile */
+#Profile {
+  @apply drop-shadow-2xl pt-24 bg-gradient-to-r from-fuchsia-500 to-cyan-500 text-white;
+}
+
+/* Skills */
+.skills-grid {
+  @apply grid justify-center p-6;
   grid-template-columns: repeat(auto-fit, minmax(175px, 200px));
 }
 
@@ -20,4 +52,30 @@ html {
   .skills {
     grid-template-columns: repeat(auto-fit, minmax(75px, 100px));
   }
+}
+
+/* Experience */
+.experience-row {
+  @apply p-6 flex flex-wrap justify-center gap-6;
+}
+
+.outline-wrap {
+  @apply flex-shrink-0 flex justify-center items-center bg-gradient-to-r from-indigo-400 to-cyan-400  rounded-2xl 2xl:w-[45%] w-full sm:mb-0;
+}
+
+.experience-box {
+  @apply p-4 2xl:w-[98%] 2xl:h-[90%] h-[94%] w-[98%] bg-white rounded-2xl;
+}
+
+/* Footer */
+#Contact {
+  @apply flex flex-col items-center bg-gradient-to-r from-fuchsia-400 to-cyan-600 text-center text-white;
+}
+
+.social-icon {
+  @apply mr-9 text-neutral-800 dark:text-neutral-200;
+}
+
+.socials-wrapper {
+  @apply mb-9 flex justify-center;
 }
