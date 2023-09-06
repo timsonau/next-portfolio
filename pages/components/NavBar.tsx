@@ -10,8 +10,11 @@ export default function NavBar() {
 
   const items = ["Profile", "Projects", "Experience", "Skills", "Contact"];
   return (
-    <nav id="NavBar" className="">
-      <div className="expanded-bar">
+    <nav
+      id="NavBar"
+      className="bg-white z-10 fixed container flex justify-center px-4 py-8 mx-0 min-w-full"
+    >
+      <div className="expanded-bar hidden space-x-8 lg:flex font-semibold">
         {items.map((name, index) => (
           <a key={index} href={`#${name}`} className="text-gray-800">
             {name}
