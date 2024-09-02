@@ -1,8 +1,18 @@
 const experiences = [
   {
-    name: "UDA Technologies",
+    name: "GEICO - Software Developer I",
+    dates: "03/2024 - Present",
+    description: `Software developer for GEICO tech. Involved in internal application tools as well as integrating open source solutions to solve problems`,
+  },
+  {
+    name: "UDA Technologies - Software Engineer I",
+    dates: "10/2023 - 02/2024",
+    description: `Led team to COL barcode generator API. Mentored Co-Ops for our program.`,
+  },
+  {
+    name: "UDA Technologies - Co-Op",
     dates: "05/2021 - 08/2022",
-    description: `Worked as a Full Stack Developer on UDA's flagship product Construction Online, a cloud-based construction management software used by over 850,000 pros. Led the OnPoint proposal project, an intuitive customizable bid proposal widget featured at the International Builders Show 2023 with a dynamic preview option.`,
+    description: `Worked as a Co-Op Full Stack Developer on UDA's flagship product Construction Online, a cloud-based construction management software used by over 850,000 pros. Led the OnPoint proposal project, an intuitive customizable bid proposal widget featured at the International Builders Show 2023 with a dynamic preview option.`,
   },
   {
     name: "Auburn University",
